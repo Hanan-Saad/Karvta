@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Landing Page</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'><link rel="stylesheet" href="./style.css">
+<style>
+ @import url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
+
+
+</style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Start Landing Page -->
+
+<div class="landing-page" id="home">
+  <div class="container">
+    <div class="header-area">
+      <div class="logo"><image src="logo-removebg.png" style="high:30px; width:30px;background-color: #cccccc;"> <!--<b>karvta</b> --></div>
+      <ul class="links">
+
+		    <li>اعمالنا</li>
+			 <li>من نحن</li>
+			 <li onclick="myFunction2()">خدماتنا</li>
+			  <li onclick="myFunction()">الرئسية</li>
+        <li>اطلب الخدمة</li>
+      </ul>
+    </div>
+    <div class="info" >
+      <h1 style="font-family: 'Scheherazade', serif; font-size:50px ; float:right;" >تستحق الافضل</h1>
+      <p style="font-family: 'Scheherazade', serif; font-size:30px; float:right;   word-wrap: break-word;"  >كل خدماتك اللي تحتاجها مجموعه لك في مكان واحد</p>
+	   <p style="font-family: 'Scheherazade', serif; font-size:30px; float:right;" >شعارانا التميز و الدقة و الانجاز</p>
+	 
+      <button style="margin-top:80px;">اطلب خدمتك الان</button>
+    </div>
+    <div class="image">
+      <img src="https://i.postimg.cc/65QxYYzh/001234.png">
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<br>
+
+<div style="background-color:#F0F8FF; margin-top:50px;" id="service" >
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Card 1</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Card 2</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Card 3</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Card 4</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<!-- End Landing Page -->
+<!-- partial -->
+  <script>
+  function myFunction() {
+  var elmnt = document.getElementById("home");
+  elmnt.scrollIntoView();
+}
+  
+   function myFunction2() {
+  var elmnt = document.getElementById("service");
+  elmnt.scrollIntoView();
+}
+  
+  </script>
+</body>
+</html>
